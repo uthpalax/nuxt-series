@@ -21,8 +21,10 @@
     }
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "@nuxtjs/axios": "^5.3.6"
+    "@nuxtjs/apollo": "^4.0.0-rc19",
+    "@nuxtjs/axios": "^5.3.6",
+    "graphql-tag": "^2.10.1",
+    "nuxt": "^2.10.2"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0",

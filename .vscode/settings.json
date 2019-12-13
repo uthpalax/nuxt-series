@@ -15,5 +15,6 @@
   ],
   "eslint.autoFixOnSave": true,
   "editor.formatOnSave": false,
-  "vetur.validation.template": false
+  "vetur.validation.template": false,
+  "editor.fontSize": 14
 }
