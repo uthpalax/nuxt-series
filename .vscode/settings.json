@@ -16,5 +16,14 @@
   "eslint.autoFixOnSave": true,
   "editor.formatOnSave": false,
   "vetur.validation.template": false,
-  "editor.fontSize": 14
+  "editor.fontSize": 17,
+  "debug.console.fontSize": 17,
+  "terminal.integrated.fontSize": 17,
+  "markdown.preview.fontSize": 17,
+  "vim.easymotionMarkerFontSize": "17",
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
