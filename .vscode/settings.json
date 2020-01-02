@@ -16,14 +16,30 @@
   "eslint.autoFixOnSave": true,
   "editor.formatOnSave": false,
   "vetur.validation.template": false,
-  "editor.fontSize": 17,
-  "debug.console.fontSize": 17,
-  "terminal.integrated.fontSize": 17,
-  "markdown.preview.fontSize": 17,
-  "vim.easymotionMarkerFontSize": "17",
+  "editor.fontSize": 19,
+  "debug.console.fontSize": 19,
+  "terminal.integrated.fontSize": 19,
+  "markdown.preview.fontSize": 19,
+  "vim.easymotionMarkerFontSize": "19",
   "editor.lineHeight": 24,
   "editor.fontFamily": "Fira Code",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#65c89b",
+    "activityBar.activeBorder": "#945bc4",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#945bc4",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#42b883",
+    "titleBar.inactiveBackground": "#42b88399",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveForeground": "#15202b99",
+    "statusBar.background": "#42b883",
+    "statusBarItem.hoverBackground": "#359268",
+    "statusBar.foreground": "#15202b"
+  },
+  "peacock.color": "#42b883"
 }

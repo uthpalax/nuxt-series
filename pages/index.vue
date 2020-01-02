@@ -6,7 +6,7 @@
       </h1>
       <div class="flex">
         <ul class="w-64 px-2 text-gray-600">
-          <li v-for="character in characters.results" :key="character.id">
+          <li v-for="character in characters" :key="character.id">
             <nuxt-link
               :to="character.id"
               class="hover:font-bold hover:text-gray-900 leading-loose"
@@ -37,11 +37,8 @@ export default {
     characters: gql`
       query getCharacters {
         characters {
-          results {
-            id
-            name
-            status
-          }
+          id
+          name
         }
       }
     `
