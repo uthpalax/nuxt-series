@@ -22,7 +22,7 @@
   "markdown.preview.fontSize": 19,
   "vim.easymotionMarkerFontSize": "19",
   "editor.lineHeight": 24,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },

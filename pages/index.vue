@@ -4,6 +4,12 @@
       <h1 class="text-4xl font-semibold text-gray-800 mb-8">
         DoingITeasyChannel - Nuxt Series
       </h1>
+      <nuxt-link
+        to="create"
+        class="m-2 bg-purple-700 rounded p-2 text-white font-semibold"
+      >
+        Create Character
+      </nuxt-link>
       <div class="flex">
         <ul class="w-64 px-2 text-gray-600">
           <li v-for="character in characters" :key="character.id">
