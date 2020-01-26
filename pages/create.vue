@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="mb-4">Create Character</h2>
-    <form action="" @submit.prevent="createCharacter">
+    <form @submit.prevent="createCharacter">
       <div class="mb-4">
         <input
           v-model="name"

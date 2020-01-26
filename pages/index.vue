@@ -37,7 +37,7 @@ export default {
     }
   },
   fetch({ redirect }) {
-    redirect('/1')
+    // redirect('/1')
   },
   apollo: {
     characters: gql`
