@@ -31,23 +31,19 @@
 <script>
 import gql from 'graphql-tag'
 export default {
-  data() {
-    return {
-      characterId: 1
-    }
-  },
-  fetch({ redirect }) {
-    // redirect('/1')
-  },
-  apollo: {
-    characters: gql`
-      query getCharacters {
-        characters {
-          id
-          name
+  async asyncData({ app, redirect }) {
+    const result = await app.apolloProvider.defaultClient.query({
+      query: gql`
+        query getCharacters {
+          characters {
+            id
+            name
+          }
         }
-      }
-    `
+      `
+    })
+    redirect('/' + result.data.characters[0].id)
+    return result.data
   }
 }
 </script>

@@ -21,7 +21,7 @@
   "terminal.integrated.fontSize": 19,
   "markdown.preview.fontSize": 19,
   "vim.easymotionMarkerFontSize": "19",
-  "editor.lineHeight": 24,
+  "editor.lineHeight": 30,
   "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
