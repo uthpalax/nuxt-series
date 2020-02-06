@@ -54,7 +54,8 @@ export default {
       name: '',
       status: '',
       gender: '',
-      image: ''
+      image: '',
+      errors: []
     }
   },
   methods: {
@@ -63,8 +64,8 @@ export default {
         .mutate({
           mutation: gql`
             mutation(
-              $name: String
-              $status: String
+              $name: String!
+              $status: String!
               $gender: String
               $image: String
             ) {
@@ -88,6 +89,9 @@ export default {
         })
         .then((data) => {
           event.target.reset()
+        })
+        .catch((e) => {
+          this.errors = e.graphQLErrors
         })
     }
   }
