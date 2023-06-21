@@ -24,7 +24,7 @@
     "@nuxtjs/apollo": "^4.0.0-rc19",
     "@nuxtjs/axios": "^5.9.3",
     "graphql-tag": "^2.10.1",
-    "nuxt": "^2.11.0"
+    "nuxt": "^3.4.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
